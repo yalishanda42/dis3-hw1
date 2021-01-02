@@ -1,0 +1,96 @@
+\documentclass{article}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage[bulgarian]{babel}
+
+\title{Курсова работа №1}
+\author{Александър Игнатов \\ Ф№ 62136 }
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+
+\section{Условие}
+
+Дадена е рекурентната редица \( \{a_n\}_{n=1}^\infty \),
+където за всяко \( n \in \mathbb{N} \),
+\( a_{n+1}=\frac{2a_n^2 + a_n + 6}{a_n + 6} \) и \( a_1 = \lambda \in \mathbb{R} \backslash \{-6\} \).
+Изследвайте за сходимост редицата \( \{a_n\}_{n=1}^\infty \) в зависимост от \(\lambda\).
+
+\section{Решение}
+
+Нека допуснем, че редицата е сходяща и има граница
+
+\[
+    l := \lim_{n \to \infty} a_n
+\]
+
+Чрез използване на граничен преход получаваме:
+
+\begin{gather*}
+    l = \frac{2l^2 + l + 6}{l + 6} \Longleftrightarrow (l-2)(l-3) = 0 \\
+    l_1 = 2 \cup l_2 = 3
+\end{gather*}
+
+Пресмятаме:
+
+\begin{gather}
+    a_{n+1} - a_n = \frac{(a_n - 2)(a_n - 3)}{a_n + 6} \\
+    a_{n+1} - 2 = \frac{2(a_n + \frac{3}{2})(a_n - 2)}{a_n + 6} \\
+    a_{n+1} - 3 = \frac{2(a_n + 2)(a_n - 2)}{a_n + 6} \\
+    2a_{n+1} + 3 = \frac{4a_n^2 + 5a_n + 30}{a_n + 6} \\
+    a_{n+1} + 2 = \frac{2a_n^2 + 3a_n + 18}{a_n + 6}
+\end{gather}
+
+Чрез стойностите, в които се нулират горепосочените уравнения наблюдаваме следващите 9 различни случая за параметъра \( \lambda \).
+
+\subsection{\( \lambda < -2 \)}
+
+% TBD
+
+\subsection{\( \lambda = -2 \)}
+
+% TBD
+
+\subsection{\( -2 < \lambda < -\frac{3}{2} \)}
+
+% TBD
+
+\subsection{\( \lambda = -\frac{3}{2} \)}
+
+% TBD
+
+\subsection{\( -\frac{3}{2} < \lambda < 2 \)}
+
+% TBD
+
+\subsection{\( \lambda = 2 \)}
+
+% TBD
+
+\subsection{\( 2 < \lambda < 3 \)}
+
+% TBD
+
+\subsection{\( \lambda = 3 \)}
+
+% TBD
+
+\subsection{\( \lambda > 3 \)}
+
+% TBD
+
+\section{Отговор}
+
+\begin{align*}
+\lambda \in (-\infty, -6) \cup (-6, -2) &\Longrightarrow \lim_{n \to \infty} a_n = -\infty \\
+\lambda \in (-2, 3) &\Longrightarrow \lim_{n \to \infty} a_n = 2 \\
+\lambda \in \{-2, 3\} &\Longrightarrow \lim_{n \to \infty} a_n = 3 \\
+\lambda \in (3, +\infty) &\Longrightarrow \lim_{n \to \infty} a_n = +\infty \\
+\end{align*}
+
+\end{document}
