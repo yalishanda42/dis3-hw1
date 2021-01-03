@@ -1,7 +1,0 @@
-# TeX output
-*.aux
-*.fdb_latexmk
-*.fls
-*.log
-*.pdf
-*.gz
