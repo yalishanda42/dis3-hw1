@@ -29,11 +29,6 @@ jobs:
         uses: xu-cheng/latex-action@2.2.0
         with:
           root_file: solution.tex
-          compiler: htlatex # to HTML
-          args: ''
-               
-      - name: Copy to index.html
-        run: cp solution.html index.html
         
       - name: Deploy to Github Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
