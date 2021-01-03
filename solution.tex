@@ -26,7 +26,7 @@
 Нека допуснем, че редицата е сходяща и има граница
 
 \[
-    l := \lim_{n \to \infty} a_n
+    l = \lim_{n \to \infty} a_n
 \]
 
 Чрез използване на граничен преход получаваме:
@@ -39,22 +39,84 @@
 Пресмятаме:
 
 \begin{gather}
-    a_{n+1} - a_n = \frac{(a_n - 2)(a_n - 3)}{a_n + 6} \\
-    a_{n+1} - 2 = \frac{2(a_n + \frac{3}{2})(a_n - 2)}{a_n + 6} \\
-    a_{n+1} - 3 = \frac{2(a_n + 2)(a_n - 2)}{a_n + 6} \\
-    2a_{n+1} + 3 = \frac{4a_n^2 + 5a_n + 30}{a_n + 6} \\
-    a_{n+1} + 2 = \frac{2a_n^2 + 3a_n + 18}{a_n + 6}
+    a_{n+1} - a_n = \frac{(a_n - 2)(a_n - 3)}{a_n + 6}
 \end{gather}
 
-% TBD
+Наблюдаваме знакът на израза \( (1) \):
+
+\begin{align*}
+    a_n &\in (-\infty, -6) &\Longrightarrow a_{n+1} - a_n < 0 \\
+    a_n &\in (-6, 2) &\Longrightarrow a_{n+1} - a_n > 0 \\
+    a_n &= 2 &\Longrightarrow a_{n+1} - a_n = 0 \\
+    a_n &\in (2, 3) &\Longrightarrow a_{n+1} - a_n < 0 \\
+    a_n &= 3 &\Longrightarrow a_{n+1} - a_n = 0 \\
+    a_n &\in (2, +\infty) &\Longrightarrow a_{n+1} - a_n > 0
+\end{align*}
+
+Пресмятаме:
+
+\begin{gather}
+    a_{n+1} - (-6) = \frac{8a_n^2 + 7a_n + 42}{a_n + 6} \\
+    a_{n+1} - 2 = \frac{2(a_n + \frac{3}{2})(a_n - 2)}{a_n + 6} \\
+    a_{n+1} - 3 = \frac{2(a_n + 2)(a_n - 2)}{a_n + 6} \\
+    2a_{n+1} - (-3) = \frac{4a_n^2 + 5a_n + 30}{a_n + 6} \\
+    a_{n+1} - (-2) = \frac{2a_n^2 + 3a_n + 18}{a_n + 6}
+\end{gather}
+
+От уравнение (2):
+
+\begin{gather*}
+    8a_n^2 + 7a_n + 42 > 0,\, \forall a_n \Longrightarrow sign(a_{n+1} + 6) = sign(a_n + 6) \\
+    \{a_n\}\downarrow ,\, a_n \in (-\infty, -6) \\
+    \{a_n\}\uparrow ,\, a_n \in (-6, +\infty)
+\end{gather*}
+
+От уравнения (3) и (5):
+
+\begin{gather*}
+    \{a_n\}\downarrow ,\, a_n \in (-\infty, -6) \\
+    \{a_n\}\uparrow ,\, a_n \in \left(-6, -\frac{3}{2}\right) \\
+    a_n = 2,\, \forall n \in \mathbb{N} \backslash \{1\},\, a_1 = -\frac{3}{2} \\
+    \{a_n\}\downarrow ,\, a_n \in \left(-\frac{3}{2}, 2\right) \\
+    a_n = 2,\, \forall n \in \mathbb{N},\, a_1 = 2 \\
+    \{a_n\}\uparrow ,\, a_n \in (2, +\infty)
+\end{gather*}
+
+От уравнения (4) и (6):
+
+\begin{gather*}
+    \{a_n\}\downarrow ,\, a_n \in (-\infty, -6) \\
+    \{a_n\}\uparrow ,\, a_n \in (-6, -2) \\
+    a_n = 3,\, \forall n \in \mathbb{N} \backslash \{1\},\, a_1 = -2 \\
+    \{a_n\}\downarrow ,\, a_n \in (-2, 3) \\
+    a_n = 3,\, \forall n \in \mathbb{N},\, a_1 = 3 \\
+    \{a_n\}\uparrow ,\, a_n \in (3, +\infty)
+\end{gather*}
+
+Така получваме следното поведение за следните интервали:
+
+\begin{gather*}
+    \lambda \in (-\infty, -6) \Longrightarrow \{a_n\}\downarrow ,\, \lim_{n \to \infty} a_n = -\infty \\
+    \lambda \in (-6, -2) \Longrightarrow \{a_n\}\uparrow ,\, \lim_{n \to \infty} a_n = +\infty \\
+    \lambda = -2 \Longrightarrow a_n = 3,\, \forall n \in \mathbb{N}\backslash\{1\},\, \lim_{n \to \infty} a_n = 3 \\
+    \lambda \in \left(-2, -\frac{3}{2}\right) \Longrightarrow \{a_n\}\downarrow ,\, \lim_{n \to \infty} a_n = 2 \\
+    \lambda = -\frac{3}{2} \Longrightarrow a_n = 2,\, \forall n \in \mathbb{N}\backslash\{1\},\, \lim_{n \to \infty} a_n = 2 \\
+    \lambda \in \left(-\frac{3}{2}, 2\right) \Longrightarrow \{a_n\}\uparrow ,\, \lim_{n \to \infty} a_n = 2 \\
+    \lambda = 2 \Longrightarrow a_n = 2,\, \forall n \in \mathbb{N},\, \lim_{n \to \infty} a_n = 2 \\
+    \lambda \in (2, 3) \Longrightarrow \{a_n\}\downarrow ,\, \lim_{n \to \infty} a_n = 2 \\
+    \lambda \in (3, +\infty) \Longrightarrow \{a_n\}\uparrow ,\, \lim_{n \to \infty} a_n = +\infty \\
+\end{gather*}
 
 \section{Отговор}
 
-\begin{align*}
-\lambda \in (-\infty, -6) &\Longrightarrow \lim_{n \to \infty} a_n = -\infty \\
-\lambda \in (-2, 3) &\Longrightarrow \lim_{n \to \infty} a_n = 2 \\
-\lambda \in \{-2, 3\} &\Longrightarrow \lim_{n \to \infty} a_n = 3 \\
-\lambda \in (-6, -2) \cup (3, +\infty) &\Longrightarrow \lim_{n \to \infty} a_n = +\infty \\
-\end{align*}
+\begin{equation}
+    \lim_{n \to \infty} a_n =
+    \begin{cases}
+        -\infty &,\, \lambda \in (-\infty, -6) \\
+        2       &,\, \lambda \in (-2, 3) \\
+        3       &,\, \lambda \in \{-2, 3\} \\
+        +\infty &,\, \lambda \in (-6, -2) \cup (3, +\infty)
+    \end{cases}
+\end{equation}
 
 \end{document}

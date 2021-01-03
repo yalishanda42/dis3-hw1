@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.1)  3 JAN 2021 11:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.1.1)  3 JAN 2021 14:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -375,34 +375,35 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./solu
-tion.aux) ) 
+{/opt/texlive/texdir/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] (./
+solution.aux) ) 
 Here is how much of TeX's memory you used:
  2620 strings out of 479382
  34195 string characters out of 5871336
- 329919 words of memory out of 5000000
+ 337919 words of memory out of 5000000
  19742 multiletter control sequences out of 15000+600000
  413802 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  65i,9n,72p,231b,357s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2
-a.enc}</opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></opt
-/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/texli
-ve/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/tex
-dir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></opt/texlive/texdir/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texlive/texdir/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/texdir/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/texdir/texmf-dist/fonts/type
-1/public/amsfonts/symbols/msbm10.pfb></opt/texlive/texdir/texmf-dist/fonts/type
-1/public/cm-super/sfbx1440.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/publ
-ic/cm-super/sfrm1000.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/cm-
-super/sfrm1200.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/cm-super/
-sfrm1728.pfb>
-Output written on solution.pdf (2 pages, 124934 bytes).
+{/opt/texlive/texdir/texmf-dist/fonts/enc/dvips/cm-super/cm-supe
+r-t2a.enc}</opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10
+.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
+</opt/texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></opt/
+texlive/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></opt/texliv
+e/texdir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></opt/texlive/texd
+ir/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></opt/texlive/texdir/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/texlive/texdir/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/texlive/texdir/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb></opt/texlive/texdir/texmf-dist/fonts/type1
+/public/amsfonts/symbols/msbm10.pfb></opt/texlive/texdir/texmf-dist/fonts/type1
+/public/cm-super/sfbx1440.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/publi
+c/cm-super/sfrm1000.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/cm-s
+uper/sfrm1200.pfb></opt/texlive/texdir/texmf-dist/fonts/type1/public/cm-super/s
+frm1728.pfb>
+Output written on solution.pdf (3 pages, 137707 bytes).
 PDF statistics:
- 64 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 71 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
