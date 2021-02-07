@@ -14,6 +14,7 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/article.cls
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/size10.clo
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/size10.clo
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/size10.clo
@@ -28,6 +29,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -50,6 +53,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amstext.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amstext.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amstext.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amstext.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsgen.sty
@@ -70,6 +75,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsbsy.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsbsy.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
@@ -80,6 +87,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsopn.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/amsmath/amsgen.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/inputenc.sty
@@ -90,6 +99,8 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/inputenc.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/inputenc.sty
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.sty
@@ -111,6 +122,7 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/t2aenc.dfu
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/t2aenc.dfu
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/t2aenc.dfu
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/t2aenc.dfu
+INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
