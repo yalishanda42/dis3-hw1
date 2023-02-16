@@ -111,7 +111,6 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.sty
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.sty
-INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/babel.def
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/txtbabel.def
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel-bulgarian/bulgarian.ldf
 INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel-bulgarian/bulgarian.ldf
@@ -122,6 +121,11 @@ INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/t2aenc.dfu
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/t2aenc.dfu
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/t2aenc.dfu
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/base/t2aenc.dfu
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/locale/bg/babel-bulgarian.tex
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/locale/bg/babel-bulgarian.tex
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/locale/bg/babel-bulgarian.tex
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/locale/bg/babel-bulgarian.tex
+INPUT /opt/texlive/texdir/texmf-dist/tex/generic/babel/locale/bg/babel-bg.ini
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 INPUT /opt/texlive/texdir/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
